@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tables Knowledge</title>
+    <link rel="stylesheet" href="tables.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  </head>
+  <body>
+    <div class = "container">
+      <div id = 'wrong'>
+
+        Wrong
+
+      </div>
+      <div class="score">
+        Score : <span id = "actualScore"></span>
+      </div>
+      <div id = "puzzleDisplay">
+        <span id = "math"><span id = "num1"></span><span id = "operator"></span><span id = "num2"></span></span>
+      </div>
+      <p id = "instruction">
+        Click on the Corrrect Answer
+      </p>
+      <div id = "answerBlocks">
+        <div class = "options">
+
+        </div>
+        <div class = "options">
+
+        </div>
+        <div class = "options">
+
+        </div>
+        <div class = "options">
+
+        </div>
+      </div>
+      <button type="button" name="button">Start Game</button>
+      <div id = "time">
+        Time Remaining: <span id = "remainingTime"></span>
+      </div>
+    </div>
+    <div id = "gameOver">
+        <span id = "over">Game Over! </br> Your Final Score is ::: <span id = "score"></span></span>
+    </div>
+    <script type="text/javascript" src = "table2.js">  </script>
+  </body>
+</html>
